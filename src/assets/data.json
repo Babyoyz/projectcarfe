@@ -1,0 +1,20 @@
+{
+    "result":[
+        {
+            "parthimg":"../../src/assets/img/1.png",
+            "bgcolor":"#ff33ff"
+        },   
+        {
+            "parthimg":"../../src/assets/img/2.png",
+            "bgcolor":"#F6BABA"
+        },
+        {
+            "parthimg":"../../src/assets/img/3.png",
+            "bgcolor":"#ff33ff"
+        },
+        {
+            "parthimg":"../../src/assets/img/4.png",
+            "bgcolor":"#F6BABA"
+        }
+    ]
+}
