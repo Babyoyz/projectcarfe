@@ -6,7 +6,7 @@
         },   
         {
             "parthimg":"../../src/assets/img/2.png",
-            "bgcolor":"#F6BABA"
+            "bgcolor":"#FF9333"
         },
         {
             "parthimg":"../../src/assets/img/3.png",
@@ -14,7 +14,7 @@
         },
         {
             "parthimg":"../../src/assets/img/4.png",
-            "bgcolor":"#F6BABA"
+            "bgcolor":"#FF9333"
         }
     ]
 }
