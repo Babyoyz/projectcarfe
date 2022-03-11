@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
+
 </script>
 
 <template>
@@ -18,7 +18,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: #F6BABA;
+    background-color: #F6BABA !important;
 }
 
 </style>
