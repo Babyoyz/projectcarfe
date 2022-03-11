@@ -1,0 +1,97 @@
+{
+    "result":[
+        {
+            "parthimg":"../../src/assets/img/1.png",
+            "bgcolor":"#ff33ff",
+            "name":"Loyal Cake",
+            "type":"1",
+            "orderCode":"54890"
+        },   
+        {
+            "parthimg":"../../src/assets/img/2.png",
+            "bgcolor":"#FF9333",
+            "name":"Blue Milk Cake",
+            "type":"1",
+            "orderCode":"54891"
+        },
+        {
+            "parthimg":"../../src/assets/img/3.png",
+            "bgcolor":"#ff33ff",
+            "name":"Super Cap Cake",
+            "type":"1",
+            "orderCode":"54892"
+        },
+        {
+            "parthimg":"../../src/assets/img/4.png",
+            "bgcolor":"#FF9333",
+            "name":"Strawberry Cheesecake",
+            "type":"1",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/5.png",
+            "bgcolor":"#ff33ff",
+            "name":"Strawberry Daifuku",
+            "type":"2",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/6.png",
+            "bgcolor":"#FF9333",
+            "name":"Bundle Daifuku",
+            "type":"2",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/7.png",
+            "bgcolor":"#ff33ff",
+            "name":"Strawberry stuff chocolate Daifuku",
+            "type":"2",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/8.png",
+            "bgcolor":"#FF9333",
+            "name":"Ice Cream Chocolate",
+            "type":"3",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/9.png",
+            "bgcolor":"#ff33ff",
+            "name":"Ice Cream Lemon",
+            "type":"3",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/10.png",
+            "bgcolor":"#FF9333",
+            "name":"Ice Cream Vanilla ",
+            "type":"3",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/11.png",
+            "bgcolor":"#ff33ff",
+            "name":"Matcha Cha",
+            "type":"4",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/12.png",
+            "bgcolor":"#FF9333",
+            "name":"Cocoa Cha",
+            "type":"4",
+            "orderCode":"54893"
+        },
+        {
+            "parthimg":"../../src/assets/img/13.png",
+            "bgcolor":"#ff33ff",
+            "name":"Milk Tea",
+            "type":"4",
+            "orderCode":"54893"
+        }
+
+    ],
+    "status":200
+}
