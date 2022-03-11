@@ -5,7 +5,7 @@
         </div>
 
         <div class="contentBx" >
-            <h2>Nike Shoes</h2>
+            <h3 class="line-camp">{{ nameproduct }}</h3>
 
             <div class="size">
                 <h3>Size :</h3>
@@ -26,6 +26,9 @@ export default {
             type:String
         },
         bgcolor:{
+            type:String
+        },
+        nameproduct:{
             type:String
         }
     }
@@ -109,11 +112,15 @@ export default {
     height: 210px;
 }
 
-.card .contentBx h2 {
+.card .contentBx h3 {
     position: relative;
     font-weight: 600;
     letter-spacing: 1px;
     color: rgb(248, 244, 18);
+      display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 
 .card .contentBx .size,

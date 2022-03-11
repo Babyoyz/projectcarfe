@@ -2,25 +2,42 @@
     <div class="d-flex justify-content-center">
         <div class="row">
             <div class="col-auto mb-2">
-                <button class="btn-filter-ac">All</button>
+                <button :class="activemenu == '99' ? 'btn-filter-ac':'btn-filter'" @click="filtermenu(99)">All</button>
             </div>
             <div class="col-auto mb-2">
-                <button class="btn-filter">Cake</button>
+                <button :class="activemenu == '1' ? 'btn-filter-ac':'btn-filter'" @click="filtermenu(1)">Cake</button>
             </div>
             <div class="col-auto mb-2">
-                <button class="btn-filter">Daifuku</button>
+                <button :class="activemenu == '2' ? 'btn-filter-ac':'btn-filter'" @click="filtermenu(2)">Daifuku</button>
             </div>
             <div class="col-auto mb-2">
-                <button class="btn-filter">IceCream</button>
+                <button :class="activemenu == '3' ? 'btn-filter-ac':'btn-filter'"  @click="filtermenu(3)">IceCream</button>
             </div>
             <div class="col-auto mb-2">
-                <button class="btn-filter">Drink</button>
+                <button :class="activemenu == '4' ? 'btn-filter-ac':'btn-filter'"   @click="filtermenu(4)">Drink</button>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+export default {
+
+data(){
+    return{
+        activemenu:99
+    }
+},
+
+methods:{
+    filtermenu(params){
+
+        this.activemenu = params
+        
+        this.$emit('customcomponent',params)
+    }
+}
+}
 </script>
 
 <style scoped>
