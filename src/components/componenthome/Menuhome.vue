@@ -66,6 +66,7 @@ nav ul li {
 a { 
     text-decoration: none;
 color:var(--c);
+ cursor: pointer;
  }
  a:hover{
      color: black;
